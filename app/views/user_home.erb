@@ -1,0 +1,11 @@
+<!-- Aquí va el nombre del usuario con embedded ruby -->
+<a class="links" href="/logout">Logout</a>
+<h1 class="welcome-header">Bienvenido <%= @registration.name %></h1>
+<h2 class="welcome-text">Haz click en alguno de los decks para jugar</h2>
+
+	
+	<% @deck.each_with_index do |deck, index| %> 
+	<a class="decks" href="/show_game/<%= deck.id %>"><%= index += 1 %>. <%= deck.name %></a>
+	<% end %>
+
+<a class="links" href="/create_deck">Crear un nuevo Deck</a>

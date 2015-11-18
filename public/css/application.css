@@ -1,0 +1,108 @@
+* {
+	font-family: 'Lato', sans-serif;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+  margin: 20px auto;
+  width: 800px;
+  padding: 0px 20px 20px 20px;
+}
+
+th {
+  text-align: left;
+}
+
+.home {
+	position: absolute;
+	top: 200px;
+	width: 800px;
+	height: 600px;
+}
+
+.welcome-header {
+	font-size: ;
+	color: #3E505B;
+}
+
+.welcome-text {
+	font-style: italic;
+	color: #3E505B;
+}
+
+.deck-title {
+	color: #63B0CD;
+	font-size: 55px;
+	font-weight: 600;
+	text-transform: uppercase;
+
+}
+
+.question {
+	font-size: 21px;
+	font-weight: 400;
+	color: #3E505B;
+}
+
+.label {
+	text-transform: uppercase;
+	font-size: 13px;
+	letter-spacing: 2px;
+	font-weight: 700;
+	margin-top: 10px;
+	color: #3E505B;
+}
+
+.input {
+	padding: 5px 5px;
+	height: 38px;
+	width: 350px;
+	margin-top: 10px;
+	margin-bottom: 25px;
+	color: #3E505B;
+}
+
+.button {
+	padding: 5px 0;
+	height: 48px;
+	width: 130px;
+	color: #F6E8EA;
+	background-color: #63B0CD;
+	border: 0;
+	text-transform: uppercase;
+	font-size: 13px;
+	letter-spacing: 2px;
+	margin-bottom: 30px;
+}
+
+.links {
+	text-decoration: none;
+	font-weight: 700;
+	color: #F865B0;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.links:hover {
+	text-decoration: underline;
+}
+
+.decks {
+	display: block;
+	background-color: #00A9A5;
+	color: #F6E8EA;
+	font-size: 16px;
+	padding: 15px;
+	margin: 15px;
+	font-weight: 400;
+	width: 500px;
+	text-align: center;
+}
+
+.decks:hover {
+	background-color: #0B5351;
+}
